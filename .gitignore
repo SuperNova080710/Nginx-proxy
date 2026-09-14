@@ -1,0 +1,14 @@
+# Let's Encrypt generated files
+certbot/conf/*
+certbot/www/*
+
+# Keep directory structure
+!certbot/conf/.gitkeep
+!certbot/www/.gitkeep
+
+# Docker logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
